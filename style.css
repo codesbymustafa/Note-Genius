@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #24292E;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2D333B;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    background: gray;
+}
+
+#saveBtn:hover {
+    background: #28a745;
+    color: white;
+}
+
+#clearAllBtn:hover {
+    background: red;
+    color: white;
+}
+
+textarea {
+    width: 90%;
+    margin: 15px auto;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #24292E;
+    color: white;
+    resize: none;
+}
+
+#noteTitle {
+    font-size: 30px;
+    height: 30px;
+    resize: none;
+    overflow: hidden;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#noteInput {
+    height: 30vh;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px auto;
+}
+
+
